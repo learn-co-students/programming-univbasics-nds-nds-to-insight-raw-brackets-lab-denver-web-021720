@@ -19,7 +19,8 @@ def directors_totals(nds)
   #
   #
   # Be sure to return the result at the end!
-  vm = nds
+  
+vm = nds
 i = 0
 total = 0
 result = {}
@@ -33,6 +34,6 @@ while i < vm.length do
   total = 0
   i += 1
 end
-puts result
+  return result
   nil
 end
